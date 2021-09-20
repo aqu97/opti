@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<category>
-  <pattern> Newsletter </pattern>
+  <pattern>newsletter
+</pattern>
   <template>Hier kannst du dich für unseren 
         <link>
             <text>Newsletter</text>
@@ -10,27 +11,17 @@
     </template>
  </category>
 
-<category>
-  <pattern> _ Newsletter </pattern>
-  <template>
-  <srai> Newsletter </srai>
-  </template>
- </category>
+<category><pattern> underscore Newsletter </pattern><template><srai>OPTICARD
+</srai></template></category>
+<category><pattern> Newsletter star </pattern><template><srai>OPTICARD
+</srai></template></category>
+<category><pattern> underscore Newsletter star </pattern><template><srai>OPTICARD
+</srai></template></category>
 
- <category>
-  <pattern> Newsletter * </pattern>
-  <template>
-  <srai> Newsletter </srai>
-  </template>
- </category>
 
- <category>
-  <pattern> _ Newsletter * </pattern>
-  <template>
-  <srai> Newsletter </srai>
-  </template>
- </category>
 
+ 
+ 
 
 
 </aiml>
