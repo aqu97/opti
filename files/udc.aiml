@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+  <category>
+    <pattern>Hallo</pattern>
+    <template>Hallo, wie heißt du?</template>
+  </category>
+  <category>
+  <pattern>Hallo *</pattern>
+  <template>
+  <srai> Hallo </srai>
+  </template>
+ </category>
+ 
+ <category>
+     <pattern>Ich heiße *</pattern>
+     <template>Hey <set name="username"></set> <star> </star>,ich hoffe es geht dir gut. Wie kann ich dir helfen?</template>
+ </category>
+ 
+ <category>
+     <pattern>Mein Name ist *</pattern>
+     <template><srai>Ich heiße <star></star></srai></template>
+ </category>
+ 
+ <category>
+     <pattern>Ich bin *</pattern>
+     <template><srai>Ich heiße <star></star></srai></template>
+ </category>
+ 
+<category>
+    <pattern>Hey</pattern>
+    <template><srai>Hallo</srai></template>
+</category>
+
+ <category>
+    <pattern>Hi *</pattern>
+    <template><srai>Hallo</srai></template>
+</category>
+<category>
+    <pattern>Servus *</pattern>
+    <template><srai>Hallo</srai></template>
+</category>
+ <category>
+    <pattern>Guten Tag *</pattern>
+    <template><srai>Hallo</srai></template>
+</category>
+ 
+ <category>
+     <pattern>Wie heißt du</pattern>
+     <template>Ich bin das Optimum. Der treue Begleiter der Opti-Wohnwelt
+     und des Opti-Megastores. </template>
+ </category>
+ 
+ 
+ <category>
+     <pattern>Wer bist du</pattern>
+     <template><srai>wie heißt du</srai></template>
+ </category>
+ 
+ <category>
+     <pattern>Wie gehts dir</pattern>
+     <template>Mir geht es sehr gut. Ich hoffe dir geht es mindestens genauso gut!</template>
+ </category>
+ 
+ <category>
+     <pattern>Wie geht es dir</pattern>
+     <template><srai>Wie gehts dir</srai></template>
+ </category>
+ 
+  <category>
+     <pattern>Gehts dir gut</pattern>
+     <template><srai>Wie gehts dir</srai></template>
+ </category>
+ 
+ <category>
+     <pattern>Geht es dir gut</pattern>
+     <template><srai>Wie gehts dir</srai></template>
+ </category>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</aiml>
+

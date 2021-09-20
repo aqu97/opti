@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+  <pattern> Newsletter </pattern>
+  <template>Hier kannst du dich für unseren 
+        <link>
+            <text>Newsletter</text>
+            <url>https://opti-megastore.de/newsletter</url>
+        </link>anmelden.
+    </template>
+ </category>
+
+<category>
+  <pattern> _ Newsletter </pattern>
+  <template>
+  <srai> Newsletter </srai>
+  </template>
+ </category>
+
+ <category>
+  <pattern> Newsletter * </pattern>
+  <template>
+  <srai> Newsletter </srai>
+  </template>
+ </category>
+
+ <category>
+  <pattern> _ Newsletter * </pattern>
+  <template>
+  <srai> Newsletter </srai>
+  </template>
+ </category>
+
+
+
+</aiml>
