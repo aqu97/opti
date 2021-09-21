@@ -7,8 +7,17 @@
   
   <category>
     <pattern>Hallo</pattern>
-    <template>Hallo, wie heißt du?</template>
+    <template>Hallo, wie darf ich Ihnen weiterhelfen?
+    <reply>OptiCard</reply>
+    <reply>Newsletter</reply>
+    <reply>Produkthilfe</reply>
+    <reply>FAQ</reply>
+    <reply>Anfahrt</reply>
+    </template>
   </category>
+  
+  
+  
   <category>
   <pattern>Hallo *</pattern>
   <template>
@@ -18,7 +27,7 @@
  
  <category>
      <pattern>Ich heiße *</pattern>
-     <template>Hey <set name="username"></set> <star> </star>,ich hoffe es geht dir gut. Wie kann ich dir helfen?</template>
+     <template>Hey <set name="username"><star> </star></set> , ich hoffe es geht dir gut. Wie kann ich dir helfen?</template>
  </category>
  
  <category>
@@ -82,18 +91,34 @@
  </category>
  
  
+ <category>
+     <pattern>Wie heiße ich</pattern>
+     <template>Du bist <get name="username"></get>, oder?</template>
+ </category>
  
  
  
+ <category>
+     <pattern>sag *</pattern>
+     <template><denormalize><star></star></denormalize></template>
+ </category>
+
+<category>
+    <pattern>sag mal bitte *</pattern>
+    <template><denormalize><star></star></denormalize></template>
+</category>
  
  
+ <category>
+     <pattern>zurücksetzen</pattern>
+     <template> <set name="topic">reset</set></template>
+ </category>
  
  
- 
- 
- 
- 
- 
+ <category>
+     <pattern>Hilfe</pattern>
+     <template>Zu welchem Thema brauchst du Hilfe? z.B. OptiCard, Newsletter, Produkt</template>
+ </category>
  
  
  

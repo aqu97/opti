@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<category>
-  <pattern>newsletter
-</pattern>
-  <template>Hier kannst du dich für unseren 
-        <link>
-            <text>Newsletter</text>
-            <url>https://opti-megastore.de/newsletter</url>
-        </link>anmelden.
+  <pattern>Newsletter</pattern>
+  <template>Unser Newsletter geht mit unserer OptiCard einher. Sie können sich kostenlos
+  eine beantragen und von allen Vorteilen, wie zum Beispiel Monatsangebote, profitieren.
+  <delay>2</delay>
+
+  Mehr Infos zur ihrer OptiCard finden Sie hier.
+        <button>
+            <text>Zur OptiCard</text>
+            <url>https://www.opti-wohnwelt.de/opticard.html</url>
+        </button>
     </template>
  </category>
 
