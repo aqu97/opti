@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>Welche Zahlungsarten gibt es</pattern>
+	    <template>Wir bieten Ihnen zur Zahlung folgende Möglichkeiten.
+	        <ul>
+	            <li>PayPal</li>
+	            <li>Visa</li>
+	            <li>Vorkasse</li>
+	            <li>MasterCard</li>
+	            <li>Klarna</li>
+            </ul>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>_ Zahlungsarten</pattern>
+        <template><srai>Welche Zahlungsarten gibt es</srai></template>
+    </category>
+    <category>
+        <pattern>Zahlungsarten *</pattern>
+        <template><srai>Welche Zahlungsarten gibt es</srai></template>
+    </category>
+    <category>
+        <pattern>_ Zahlungsarten *</pattern>
+        <template><srai>Welche Zahlungsarten gibt es</srai></template>
+    </category>
+</aiml>

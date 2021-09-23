@@ -4,16 +4,20 @@
 	    <pattern>OptiCard</pattern>
 	    <template>Okay. Wenn Sie eine OptiCard beantragen, sie aktivieren oder einen Verlust melden wollen,
 	    können Sie uns bequem per Formular kontaktieren.
-	    
+	    <button>
+	        <text>Zur OptiCard</text>
+	        <url>https://www.opti-wohnwelt.de/opticard.html</url>
+        </button>
+        
 	    
     <split></split>
 
         Alternativ oder bei sonstige Fragen erreichen Sie uns unter 0800 2008 222. Wir helfe Ihnen gerne weiter!
-	             
-	          <button>
-	        <text>Zur OptiCard</text>
-	        <url>https://www.opti-wohnwelt.de/opticard.html</url>
-        </button></template> 
+	          <reply>
+            <text>Zurück</text>
+            <postback>hallo</postback>
+        </reply>   
+	          </template> 
     </category>
     
     <category>
@@ -26,4 +30,5 @@
         <pattern>Opticard *</pattern>
         <template><srai>OptiCard</srai></template>
     </category>
+    
 </aiml>

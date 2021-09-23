@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern># Anfahrt ^</pattern>
+    <template><think><set name="topic">location</set></think> Auf unserer Website finden Sie all unsere Filialen mit Öffnungszeiten, 
+    Adressen und zusätzlichen Informationen.
+        
+        <delay></delay>
+            Alternativ kann ich Ihnen auch selbst die Filialen nach Bundesland filtern.
+        <reply>Ja, nach Bundesland filtern</reply>
+        <reply>Nein, ich möchte zur Website</reply>
+    </template>
+</category>
+
+<category>
+    <pattern># Anreise ^</pattern>
+    <template><srai>Anfahrt</srai></template>
+</category>
+
+<category>
+    <pattern>Wie komme ich *</pattern>
+    <template><srai>Anfahrt</srai></template>
+</category>
+
+<category>
+    <pattern>Wie lange *</pattern>
+    <template><srai>Anfahrt</srai></template>
+</category>
+
+<category>
+    <pattern>Wo ist *</pattern>
+    <template><srai>Anfahrt</srai></template>
+</category>
+
+<category>
+    <pattern># Ort ^</pattern>
+    <template><srai>Anfahrt</srai></template>
+</category>
+
+<category>
+    <pattern># Standorte ^</pattern>
+    <template><srai>Anfahrt</srai></template>
+</category>
+<category>
+    <pattern># Standort ^</pattern>
+    <template><srai>Anfahrt</srai></template>
+</category>
+
+<category>
+    <pattern># Filiale ^</pattern>
+    <template><srai>Anfahrt</srai></template>
+</category>
+
+<category>
+    <pattern># Filialen ^</pattern>
+    <template><srai>Anfahrt</srai></template>
+</category>
+<category>
+    <pattern># Öffnungszeiten ^</pattern>
+    <template><srai>Anfahrt</srai></template>
+</category>
+
+<topic name="location">
+<category>
+    <pattern>Ja, nach Bundesland filtern</pattern>
+    <template>
+        <reply>Baden Württemberg</reply>
+        <reply>Bayern</reply>
+        <reply>Brandenburg</reply>
+        <reply>Bremen</reply>
+        <reply>Hessen</reply>
+        <reply>Mecklenburg Vorpommern</reply>
+        <reply>Niedersachsen </reply>
+        <reply>Nordrhein Westfalen </reply>
+        <reply>Rheinland Pfalz </reply>
+        <reply>Schleswig Holstein </reply>
+        <reply>Thüringen </reply>
+        <reply>
+            <text>Zurück</text>
+            <postback>Anfahrt</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Nein, ich möchte zur Website</pattern>
+    <template><button>
+            <text>Unsere Opti-Wohnwelt-Filialen</text>
+            <url>https://www.opti-wohnwelt.de/filialen.html</url>
+        </button>
+        <reply>
+            <text>Zurück</text>
+            <postback>Anfahrt</postback>
+        </reply></template>
+</category>
+
+   
+<category>
+    <pattern>Niedersachsen</pattern>
+    <template>
+        <reply>Adendorf Lüneburg</reply>
+        <reply>MegaStore Gifhorn</reply>
+        <reply>MegaStore Goslar</reply>
+        <reply>MegaStore Helmstedt</reply>
+        <reply>Schiffdorf-Spaden</reply>
+        <reply>Uelzen</reply>
+        <reply>Werlte</reply>
+        <reply>
+            <text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Baden Württemberg</pattern>
+    <template>
+        <reply>Backnang</reply>
+        <reply>Karlsruhe</reply>
+        <reply>Pforzheim</reply>
+        <reply>Tettnang</reply>
+        <reply><text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Bayern</pattern>
+    <template>
+        <reply>Bamberg</reply>
+        <reply>Schweinfurt</reply>
+        <reply>Dillingen</reply>
+        <reply>Kaufbeuren</reply>
+        <reply>Mühldorf am Inn</reply>
+        <reply>Neu-Ulm</reply>
+        <reply>Niederlauer</reply>
+        <reply>Nürnberg</reply>
+        <reply>Regensburg</reply>
+        <reply>Würzburg</reply>
+        <reply><text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Bremen</pattern>
+    <template>
+        <reply>Bremen am Weserpark</reply>
+        <reply>Bremen City</reply>
+        <reply><text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Hessen</pattern>
+    <template>
+        <reply>Butzbach</reply>
+        <reply>MegaStore Haiger</reply>
+        <reply>Petersburg/Fulda</reply>
+        <reply><text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Thüringen</pattern>
+    <template>
+        <reply>Eisenach</reply>
+        <reply>Suhl</reply>
+        <reply>Schwallungen</reply>
+        <reply><text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Brandenburg</pattern>
+    <template>
+        <reply>Finsterwalde</reply>
+        <reply>Prenzlau</reply>
+       <reply> <text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Nordrhein Westfalen</pattern>
+    <template>
+        <reply>MegaStore Herzogenrath</reply>
+        <reply>Plettenberg</reply>
+        <reply><text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Rheinland Pfalz</pattern>
+    <template>
+        <reply>Ingelheim</reply>
+       <reply> <text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Schleswig Holstein</pattern>
+    <template>
+        <reply>MegaStore Itzehoe</reply>
+        <reply><text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+
+<category>
+    <pattern>Mecklenburg Vorpommern</pattern>
+    <template>
+        <reply>Neubrandenburg</reply>
+        <reply>MegaStore Neubrandenburg</reply>
+        <reply>Schwerin</reply>
+        <reply><text>Zurück</text>
+            <postback>Ja, nach Bundesland filtern</postback>
+        </reply>
+    </template>
+</category>
+</topic>
+</aiml>

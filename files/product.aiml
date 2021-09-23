@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<category>
-	    <pattern>Produkt</pattern>
+	    <pattern># Produkt ^</pattern>
 	    <template><think><set name="topic">product</set></think>Okay. Bitte sagen Sie mir die Artikelnummer<delay>1</delay>Falls Sie die Artikelnummer 
 nicht wissen, können Sie mir auch den Namen des gesuchten Produktes nennen.</template>
 </category>
-<category>
-    <pattern>_ Produkt</pattern>
-    <template><srai>Produkt</srai></template>
-</category>
-<category>
-    <pattern>Produkt *</pattern>
-    <template><srai>Produkt</srai></template>
-</category>
+
+
 <category>
     <pattern>Produkthilfe</pattern>
     <template><srai>Produkt</srai></template>
@@ -25,13 +19,20 @@ nicht wissen, können Sie mir auch den Namen des gesuchten Produktes nennen.</te
     <category>
         <pattern>*</pattern>
         <template><think><set name="productid"><star></star></set></think>
-        Okay es geht also um dieses Produkt:<split></split>  
-        <get name="productid"> </get></template>
+        Okay es geht also um dieses Produkt:<split></split>
+        <link>
+            <text>https://www.opti-wohnwelt.de/<get name="productid"></get>.html</text>
+            <url>https://www.opti-wohnwelt.de/<get name="productid"></get>.html</url>
+        </link>
+        
+        
+        </template>
     </category>
     
     <category>
         <pattern>Artikelnummer</pattern>
         <template><get name="productid"></get></template>
+    
     </category>
     
 </topic>

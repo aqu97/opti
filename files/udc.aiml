@@ -2,12 +2,12 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>Das verstehe ich noch nicht.</template>
   </category>
   
   <category>
-    <pattern>Hallo</pattern>
-    <template>Hallo, wie darf ich Ihnen weiterhelfen?
+    <pattern>Hallo ^</pattern>
+    <template>Hallo, wie kann ich Ihnen weiterhelfen?
     <reply>OptiCard</reply>
     <reply>Newsletter</reply>
     <reply>Produkthilfe</reply>
@@ -19,12 +19,23 @@
   
   
   <category>
-  <pattern>Hallo *</pattern>
+  <pattern>Hi ^</pattern>
   <template>
   <srai> Hallo </srai>
   </template>
  </category>
- 
+ <category>
+  <pattern>Hallöchen ^</pattern>
+  <template>
+  <srai> Hallo </srai>
+  </template>
+ </category>
+ <category>
+  <pattern>Moin ^</pattern>
+  <template>
+  <srai> Hallo </srai>
+  </template>
+ </category>
  <category>
      <pattern>Ich heiße *</pattern>
      <template>Hey <set name="username"><star> </star></set> , ich hoffe es geht dir gut. Wie kann ich dir helfen?</template>
@@ -41,16 +52,16 @@
  </category>
  
 <category>
-    <pattern>Hey</pattern>
+    <pattern>Hey ^</pattern>
     <template><srai>Hallo</srai></template>
 </category>
 
  <category>
-    <pattern>Hi *</pattern>
+    <pattern>Hi ^</pattern>
     <template><srai>Hallo</srai></template>
 </category>
 <category>
-    <pattern>Servus *</pattern>
+    <pattern>Servus ^</pattern>
     <template><srai>Hallo</srai></template>
 </category>
  <category>
@@ -58,37 +69,7 @@
     <template><srai>Hallo</srai></template>
 </category>
  
- <category>
-     <pattern>Wie heißt du</pattern>
-     <template>Ich bin das Optimum. Der treue Begleiter der Opti-Wohnwelt
-     und des Opti-Megastores. </template>
- </category>
- 
- 
- <category>
-     <pattern>Wer bist du</pattern>
-     <template><srai>wie heißt du</srai></template>
- </category>
- 
- <category>
-     <pattern>Wie gehts dir</pattern>
-     <template>Mir geht es sehr gut. Ich hoffe dir geht es mindestens genauso gut!</template>
- </category>
- 
- <category>
-     <pattern>Wie geht es dir</pattern>
-     <template><srai>Wie gehts dir</srai></template>
- </category>
- 
-  <category>
-     <pattern>Gehts dir gut</pattern>
-     <template><srai>Wie gehts dir</srai></template>
- </category>
- 
- <category>
-     <pattern>Geht es dir gut</pattern>
-     <template><srai>Wie gehts dir</srai></template>
- </category>
+
  
  
  <category>
@@ -110,7 +91,7 @@
  
  
  <category>
-     <pattern>zurücksetzen</pattern>
+     <pattern>reset</pattern>
      <template> <set name="topic">reset</set></template>
  </category>
  
@@ -121,12 +102,27 @@
  </category>
  
  
+ <category>
+     <pattern>Test</pattern>
+     <template><size></size></template>
+ </category>
  
  
+ <category>
+     <pattern>Hello</pattern>
+     <template>I'm sorry, I'm a german-talking bot. I only can speak a little bit of english. Try something like "Hallo"
+     or "Hey".</template>
+ </category>
+
+<category>
+    <pattern>How are you</pattern>
+    <template>I'm fine, but can you speak german?</template>
+</category>
  
- 
- 
- 
+ <category>
+     <pattern>Ok</pattern>
+     <template></template>
+ </category>
  
  
  
