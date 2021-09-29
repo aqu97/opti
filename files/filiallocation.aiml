@@ -7,15 +7,19 @@
         21365, Artlenburger Landstraße 36<br></br>
         Telefon: 04131 - 9911 - 0
         <split></split>
-        Öffnungszeiten: <br></br>Mo. - Sa.: 10:00 bis 19:00 Uhr
-        <split></split>
-    Lageröffnungszeiten:<br></br>
-    Mo.-Fr.: 10:00 bis 17:00 Uhr<br></br>
+        <b>Öffnungszeiten:</b> Mo. - Sa.: 10:00 bis 19:00 Uhr
+        
+<b>Lageröffnungszeiten:</b>     Mo.-Fr.: 10:00 bis 17:00 Uhr<br></br>
 Sa.: 10:00 bis 16:00 Uhr
-     <button>
+<split></split>
+<link>
+    <text>Planen Sie hier Ihre Anfahrt</text>
+    <url>https://goo.gl/maps/Rsmf8QzQcbPrP2iBA</url>
+</link>
+  <!--   <button>
          <text>Planen Sie Ihre Anfahrt</text>
          <url>https://goo.gl/maps/Rsmf8QzQcbPrP2iBA</url>
-     </button>
+     </button>-->
     </template>
 </category>
 
@@ -25,12 +29,11 @@ Sa.: 10:00 bis 16:00 Uhr
         21365, Artlenburger Landstraße 36<br></br>
         Telefon: 07191 / 9145 0
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Sa.: 09:30 bis 19:00 Uhr<br></br>
         Jeden Freitag Moonlight Shopping bis 20 Uhr!
         <split></split>
-    Lageröffnungszeiten:<br></br>
-    Mo.-Sa.: 09:30 bis 19:00 Uhr
+<b>Lageröffnungszeiten:</b>     Mo.-Sa.: 09:30 bis 19:00 Uhr
     <button>
          <text>Planen Sie Ihre Anfahrt</text>
          <url>https://goo.gl/maps/tqxGW9Uhw7QiukSa6</url>
@@ -44,11 +47,10 @@ Sa.: 10:00 bis 16:00 Uhr
         96103 Hallstadt, Michelinstraße 142<br></br>
         Telefon: 0951 / 968319-0
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Sa.: 09:00 bis 20:00 Uhr
         <split></split>
-    Lageröffnungszeiten:<br></br>
-    Mo. - Fr.: 09:00 bis 19:00 Uhr<br></br>
+<b>Lageröffnungszeiten:</b>     Mo. - Fr.: 09:00 bis 19:00 Uhr<br></br>
     Sa.: 09:00 bis 16:00 Uhr<br></br>
     <button>
         <text>Planen Sie Ihre Anfahrt</text>
@@ -63,11 +65,10 @@ Sa.: 10:00 bis 16:00 Uhr
         28307 Bremen, Hans-Bredow-Straße 43<br></br>
         Telefon: 0421 / 4845 125
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Sa.: 10:00 bis 19:00 Uhr
         <split></split>
-    Lageröffnungszeiten:<br></br>
-    Mo. - Sa.: 10:00 bis 19:00 Uhr<br></br>
+<b>Lageröffnungszeiten:</b>     Mo. - Sa.: 10:00 bis 19:00 Uhr<br></br>
     <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/otX2sg797edYB2T3A</url>
@@ -81,7 +82,7 @@ Sa.: 10:00 bis 16:00 Uhr
         28195 Bremen, Papenstraße 5<br></br>
         Telefon: 0800 / 2008 222
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Geöffnet ab Herbst 2021<br></br>
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
@@ -96,12 +97,11 @@ Sa.: 10:00 bis 16:00 Uhr
         35510 Butzbach-Griedel, Weiherstraße 9<br></br>
         Telefon: 06033 / 9642-0
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Sa.: 10:00 bis 19:00 Uhr<br></br>
         Fr.: 10:00 bis 20:00 Uhr Moonlight Shopping
 <split></split>
-Lageröffnungszeiten:<br></br>
-Mo. - Fr.: 10:00 bis 18:00 Uhr<br></br>
+<b>Lageröffnungszeiten:</b> Mo. - Fr.: 10:00 bis 18:00 Uhr<br></br>
 Sa.: 10:00 bis 16:00 Uhr
 
        <button>
@@ -116,11 +116,11 @@ Sa.: 10:00 bis 16:00 Uhr
         66763 Dillingen-Saar, Weiherstraße 9<br></br>
         Telefon: 06831 763-0
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
         Sa.: 09:30 bis 19:00 Uhr
 <split></split>
-Lageröffnungszeiten:<br></br>
+<b>Lageröffnungszeiten:</b>
 Mo. - Fr.: 10:00 bis 17:00 Uhr<br></br>
 
        <button>
@@ -135,13 +135,12 @@ Mo. - Fr.: 10:00 bis 17:00 Uhr<br></br>
         99817 Eisenach, Neue Wiese 1<br></br>
         Telefon: 03691 8596-0
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
         Sa.: 09:30 bis 18:00 Uhr
 <split></split>
-Lageröffnungszeiten:<br></br>
-Mo. - Fr: 10:00 - 19:00 Uhr<br></br>
-Sa.: 09:30 - 18:00 Uhr
+<b>Lageröffnungszeiten:</b> Mo. - Fr: 10:00 bis 19:00 Uhr<br></br>
+Sa.: 09:30 bis 18:00 Uhr
 <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/haA9rh5nFGYE4ccP8</url>
@@ -154,13 +153,12 @@ Sa.: 09:30 - 18:00 Uhr
         03238 Finsterwalde, Weststraße 6<br></br>
         Telefon: 03531 71625-0
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Fr.: 09:30 bis 19:00 Uhr<br></br>
         Sa.: 09:30 bis 18:00 Uhr
 <split></split>
-Lageröffnungszeiten:<br></br>
-Mo. - Fr: 9:30 - 18:00 Uhr<br></br>
-Sa.: 09:30 - 14:00 Uhr
+<b>Lageröffnungszeiten:</b> Mo. - Fr: 9:30 bis 18:00 Uhr<br></br>
+Sa.: 09:30 bis 14:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/oW19erjrz5YzhBJ19</url>
@@ -173,12 +171,11 @@ Sa.: 09:30 - 14:00 Uhr
         38518 Gifhorn, Braunschweiger Str. 139a<br></br>
         Telefon: 05371 / 5949 39
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
         Sa.: 09:30 bis 18:00 Uhr
 <split></split>
-Lageröffnungszeiten:<br></br>
-Mo. - Fr.: 10:00 bis 17:00 Uhr<br></br>
+<b>Lageröffnungszeiten:</b> Mo. - Fr.: 10:00 bis 17:00 Uhr<br></br>
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/JScijJWCVaJotUNR8</url>
@@ -191,12 +188,11 @@ Mo. - Fr.: 10:00 bis 17:00 Uhr<br></br>
         38644 Goslar, Bornhardtstraße 3<br></br>
         Telefon: 05321 / 6861 80
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
         Sa.: 09:00 bis 17:00 Uhr
 <split></split>
-Lageröffnungszeiten:<br></br>
-Mo. - Fr.: 10:00 bis 18:30 Uhr<br></br>
+<b>Lageröffnungszeiten:</b> Mo. - Fr.: 10:00 bis 18:30 Uhr<br></br>
 Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
@@ -210,10 +206,9 @@ Sa.: 10:00 bis 16:00 Uhr
         35708 Haiger, Bahnhofstraße 31-37<br></br>
         Telefon: 02773 / 918380
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Sa.: 10:00 bis 19:00<split></split>
-Lageröffnungszeiten:<br></br>
-Mo. - Sa.: 10:00 bis 19:00 Uhr
+<b>Lageröffnungszeiten:</b> Mo. - Sa.: 10:00 bis 19:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/8rtzF3SvWziQsDWw7</url>
@@ -226,11 +221,10 @@ Mo. - Sa.: 10:00 bis 19:00 Uhr
         38350 Helmstedt, Von-Guericke-Straße 1<br></br>
         Telefon: 05351 / 3995-95
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
         Sa.: 09:00 bis 16:00 Uhr<split></split>
-Lageröffnungszeiten:<br></br>
-Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 09:00 bis 16:00 Uhr
+<b>Lageröffnungszeiten:</b> Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 09:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/qqk324MZMyWzDcbT8</url>
@@ -243,10 +237,9 @@ Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 09:00 bis 16:00 Uhr
         52134 Herzogenrath, Voccartstraße 65<br></br>
         Telefon: 0800 2008 222
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Sa.: 10:00 bis 19:00<split></split>
-Lageröffnungszeiten:<br></br>
-Mo. - Sa.: 10:00 bis 19:00
+<b>Lageröffnungszeiten:</b> Mo. - Sa.: 10:00 bis 19:00
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/WpQiruLWkupYsYvB9</url>
@@ -260,11 +253,10 @@ Mo. - Sa.: 10:00 bis 19:00
         55218 Ingelheim, Nahering 7 + 18a<br></br>
         Telefon: 06132 / 98202-0
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Sa.: 10:00 bis 19:00 Uhr<br></br>
         Fr.: 10:00 bis 20:00 Uhr Moonlight Shopping<split></split>
-Lageröffnungszeiten:<br></br>
-Mo. - Fr.: 10:00 bis 18:00 Uhr<br></br>Sa.: 10:00 bis 14:00 Uhr
+<b>Lageröffnungszeiten:</b> Mo. - Fr.: 10:00 bis 18:00 Uhr<br></br>Sa.: 10:00 bis 14:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/35jfVjxmi6kcHPh67</url>
@@ -277,11 +269,10 @@ Mo. - Fr.: 10:00 bis 18:00 Uhr<br></br>Sa.: 10:00 bis 14:00 Uhr
         25524 Itzehoe, Am Brookhafen 16<br></br>
         Telefon: 04821 / 9578 380
         <split></split>
-        Öffnungszeiten: <br></br>
-        Mo-Fr: 10:00 - 19:00 Uhr<br></br>
-        Sa: 10:00 - 18:00 Uhr<split></split>
-Lageröffnungszeiten:<br></br>
-Mo.-Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 10:00 bis 18:00 Uhr
+        <b>Öffnungszeiten:</b> 
+        Mo-Fr: 10:00 bis 19:00 Uhr<br></br>
+        Sa: 10:00 bis 18:00 Uhr<split></split>
+<b>Lageröffnungszeiten:</b> Mo.-Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 10:00 bis 18:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/iKc9WgKn8iqc9AFdA</url>
@@ -294,7 +285,7 @@ Mo.-Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 10:00 bis 18:00 Uhr
         76139 Karlsruhe, Ruschgraben 90<br></br>
         Telefon: 0721 / 962060
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Sa.: 10:00 bis 19:00 Uhr<split></split>
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
@@ -308,7 +299,7 @@ Mo.-Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 10:00 bis 18:00 Uhr
         87600 Kaufbeuren, Bavariaring 24<br></br>
         Telefon: 08341 / 955550
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Sa.: 10:00 bis 19:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
@@ -322,8 +313,8 @@ Mo.-Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 10:00 bis 18:00 Uhr
         84453 Mühldorf am Inn, Borsigstraße 15<br></br>
         Telefon: 08631 / 986780
         <split></split>
-        Öffnungszeiten: <br></br>
-        Mo-Fr: 10:00 - 19:00 Uhr<br></br>
+        <b>Öffnungszeiten:</b> 
+        Mo-Fr: 10:00 bis 19:00 Uhr<br></br>
         Sa.: 09:30 bis 19:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
@@ -337,11 +328,10 @@ Mo.-Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 10:00 bis 18:00 Uhr
         89231 Neu-Ulm, Borsigstraße 15<br></br>
         Telefon: 0731 40769-0
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b>  
         Mo. - Fr.: 10:00 bis 19:30 Uhr<br></br>
         Sa.: 09:30 bis 20:00 Uhr<split></split>
-        Lageröffnungszeiten: <br></br>
-        Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
+<b>Lageröffnungszeiten:</b>         Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
         Sa.: 09:30 bis 18:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
@@ -352,13 +342,13 @@ Mo.-Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 10:00 bis 18:00 Uhr
 <category>
     <pattern># Neubrandenburg ^</pattern>
     <template>
-        Friedrich-Schott-Straße 26, Friedrich-Schott-Straße 26<br></br>
+        17033 Neubrandenburg, Friedrich-Schott-Straße 26<br></br>
         Telefon: 0395 / 56060 15
         <split></split>
-        Öffnungszeiten: <br></br>
+        <b>Öffnungszeiten:</b> 
         Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
         Sa: 09:30 bis 18:00 Uhr<split></split>
-        Lageröffnungszeiten: <br></br>
+        <b>Lageröffnungszeiten:</b> 
         Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
         Sa.: 09:30 bis 18:00 Uhr
        <button>
@@ -367,5 +357,299 @@ Mo.-Fr.: 10:00 bis 19:00 Uhr<br></br>Sa.: 10:00 bis 18:00 Uhr
     </button>
     </template>
 </category>
+<category>
+    <pattern># MegaStore Neubrandenburg ^</pattern>
+    <template>
+        17033 Neubrandenburg, Mirabellenstraße 2<br></br>
+        Telefon: 0395 / 3676112
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 10:00 bis 20:00 Uhr<br></br>
+        Sa.: 10:00 bis 18:00 Uhr<split></split>
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/7xFFV5Aa3GuAXKdj9</url>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern># Niederlauer ^</pattern>
+    <template>
+        97618 Niederlauer, Industriestraße 5<br></br>
+        Telefon: 09771 904-0
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 09:30 bis 19:00 Uhr<br></br>
+        Sa.: 09:30 bis 18:00 Uhr<split></split>
+        <b>Lageröffnungszeiten:</b> 
+        Mo. - Fr: 09:30 - 18:00 Uhr<br></br>
+        Sa. 09:30 bis 16:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/Gr1H4Z3vKVeRMYhv7</url>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern># MegaStore Nürnberg ^</pattern>
+    <template>
+        90482 Nürnberg, Schönseer Str. 1<br></br>
+        Telefon: 09771 904-0
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Sa.: 10:00 bis 20:00 Uhr
+        <split></split>
+        <b>Lageröffnungszeiten:</b> 
+        Mo. - Sa.: 10:00 bis 20:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/eprqRM56q3YcWQtf6</url>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern># Pforzheim ^</pattern>
+    <template>
+        75179 Pforzheim, Karlsruher Str. 75<br></br>
+        Telefon: 09771 904-0
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Sa.: 10:00 bis 19:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/MswpfGQXFAqFCMsF6</url>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern># MegaStore Plettenberg ^</pattern>
+    <template>
+        58840 Plettenberg, Teindeln 22<br></br>
+        Telefon: 02392 / 807960
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
+        Sa.: 10:00 bis 18:00 Uhr <split></split>
+        <b>Lageröffnungszeiten:</b> 
+        Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
+        Sa.: 10:00 bis 18:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/g4r4ZEJkLA3W8aXS6</url>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern># Prenzlau ^</pattern>
+    <template>
+        17291 Prenzlau, Angermünder Straße 7<br></br>
+        Telefon: 03984 8657-0
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
+        Sa.: 09:30 bis 18:00 Uhr <split></split>
+        <b>Lageröffnungszeiten:</b> 
+        Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
+        Sa.: 09:30 bis 16:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/FXfgnFvaJpBr3K399</url>
+    </button>
+    </template>
+</category><category>
+    <pattern># MegaStore Regensburg ^</pattern>
+    <template>
+        93053 Regensburg, Franz-Hartl-Straße 10<br></br>
+        Telefon: 0941 / 7081340
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Sa.: 10:00 bis 19:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/eboTbCA39pV8eSk68</url>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern># Schiffdorf Spaden ^</pattern>
+    <template>
+        27619 Schiffdorf-Spaden, Neufelder Weg 1<br></br>
+        Telefon: 0471 98215-0
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Sa.: 10:00 bis 19:00 Uhr<split></split>
+        <b>Lageröffnungszeiten:</b>
+        Mo. - Sa.: 10:00 bis 19:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/RVS8fRixct4CdMjX7</url>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern># Schwallungen ^</pattern>
+    <template>
+        98590 Schwallungen, Hilderser Straße 6<br></br>
+        Telefon: 036848 24-0
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 09:30 bis 19:00 Uhr<br></br>
+        Sa.: 09:30 bis 18:00 Uhr<split></split>
+        <b>Lageröffnungszeiten:</b>
+        Mo. - Fr.: 09:30 bis 18:00 Uhr<br></br>
+        Sa.: 09:30 bis 16:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/s9NMisqyYj2NSCiBA</url>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern># Schweinfurt ^</pattern>
+    <template>
+        97424 Schweinfurt, Heini-Dittmar-Straße 3<br></br>
+        Telefon: 09721 6463 0
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 09:30 bis 19:00 Uhr<br></br>
+        Sa.: 09:30 bis 18:00 Uhr<split></split>
+        <b>Lageröffnungszeiten:</b>
+        Mo. - Fr.: 09:30 bis 19:00 Uhr<br></br>
+        Sa.: 09:30 bis 18:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/ZvHrwXs3WceLtgAH6</url>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern># MegaStore Schwerin ^</pattern>
+    <template>
+        19061 Schwerin, Baustraße 12<br></br>
+        Telefon: 0385 / 644620
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 09:00 bis 19:00 Uhr<br></br>
+        Sa.: 09:00 bis 16:00 Uhr<split></split>
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/ncFmhgTmai4VwwUZ7</url>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern># Suhl ^</pattern>
+    <template>
+        98527 Suhl, Sommerbergstraße 28<br></br>
+        Telefon: 03681 866-0
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 09:30 bis 19:00 Uhr<br></br>
+        Sa.: 09:30 bis 18:00 Uhr<split></split>
+        <b>Lageröffnungszeiten:</b>
+        Mo. - Fr.: 09:30 bis 18:00 Uhr<br></br>
+        Sa.: 09:30 bis 16:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/7zFmvEceYFGHwGWn8</url>
+    </button>
+  </template>
+</category>
+<category>
+    <pattern># MegaStore Tettnang ^</pattern>
+    <template>
+        88069 Tettnang, Prinz-Eugen-Straße 59<br></br>
+        Telefon: 03681 866-0
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
+        Sa.: 10:00 bis 18:00 Uhr<split></split>
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/So5w1E3Nrj3YeGHW8</url>
+    </button>
+  </template>
+</category>
+<category>
+    <pattern># MegaStore Uelzen ^</pattern>
+    <template>
+        29525 Uelzen, Breidenbeck 5<br></br>
+        Telefon: 0581 / 90923-811
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
+        Sa.: 09:00 bis 18:00 Uhr<split></split>
+        <b>Lageröffnungszeiten:</b>
+        Mo. - Fr.: 10:00 bis 19:00 Uhr<br></br>
+        Sa.: 09:00 bis 18:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/SCYrqFYdVaryM9Vk9</url>
+    </button>
+  </template>
+</category>
+<category>
+    <pattern># Werlte ^</pattern>
+    <template>
+        49757 Werlte, Unfriedstraße 3<br></br>
+        Telefon: 05951 / 9907-0 oder 0800 / 2008 222
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 09:00 bis 19:00 Uhr<br></br>
+        Sa.: 09:00 bis 18:00 Uhr<split></split>
+        <b>Lageröffnungszeiten:</b>
+        Mo. - Fr.: 09:00 bis 19:00 Uhr<br></br>
+        Sa.: 09:00 bis 18:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/MzMj51U9ASTS4t7F6</url>
+    </button>
+  </template>
+</category>
+<category>
+    <pattern># Würzburg ^</pattern>
+    <template>
+        97078 Würzburg, Mainfrankenhöhe 14<br></br>
+        Telefon: 0800 / 2008 222
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Sa.: 10:00 bis 19:00 Uhr<split></split>
+        <b>Lageröffnungszeiten:</b>
+        Mo. - Sa.: 10:00 bis 19:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/9FE4jDCx3SnYHWYF6</url>
+    </button>
+    <delay>7</delay>
+    Konnte ich dir helfen? Falls ja kannst du gerne über deine Erfahrungen mit deiner Opti-Wohnwelt berichten und uns auf 
+    Ekomi bewerten.
+    <button>
+        <text>Zu Ekomi</text>
+        <url>https://www.ekomi.de/bewertungen-opti-wohnweltde.html</url>
+    </button>
+    <button>
+        <text>Falls nicht geht es hier zurück zum Anfang</text>
+        <postback>Hallo</postback>
+    </button>
+  </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </topic>
 </aiml>

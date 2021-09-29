@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<category>
-  <pattern>Newsletter</pattern>
-  <template>Unser Newsletter geht mit unserer OptiCard einher. Sie können sich kostenlos
-  eine beantragen und von allen Vorteilen, wie zum Beispiel Monatsangebote, profitieren.
+  <pattern># Newsletter ^</pattern>
+  <template>Unser Newsletter geht mit unserer OptiCard einher. Sie können sie kostenlos
+  beantragen und neben dem Newsletter von allen Vorteilen, wie zum Beispiel Monatsangeboten oder einer Geburtstagsüberraschung profitieren.
   <delay>2</delay>
 
   Mehr Infos zur ihrer OptiCard finden Sie hier.
         <button>
             <text>Zur OptiCard</text>
             <url>https://www.opti-wohnwelt.de/opticard.html</url>
-        </button>
+        </button><reply>
+            <text>Zurück</text>
+            <postback>hallo</postback>
+        </reply>
     </template>
  </category>
 
-<category><pattern> underscore Newsletter </pattern><template><srai>OPTICARD
-</srai></template></category>
-<category><pattern> Newsletter star </pattern><template><srai>OPTICARD
-</srai></template></category>
-<category><pattern> underscore Newsletter star </pattern><template><srai>OPTICARD
-</srai></template></category>
 
-
-
- 
- 
 
 
 </aiml>

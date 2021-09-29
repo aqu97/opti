@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern># Prospekt ^</pattern>
+        <template>
+            <card>
+                <image>https://backend.opti-wohnwelt.de/pub/media/prospekte/0921_ow12_oms/cover.jpg</image>
+                    <title>Opti-Wohnwelt Prospekt</title>
+                    <subtitle>40 % in allen Abteilungen</subtitle>
+                    <button>
+                        <text>Hier gehts zu unseren Prospekten</text>
+                        <url>https://www.opti-wohnwelt.de/prospekte.html</url>
+                    </button>
+                    <button>
+                        <text>Zurück zum Anfang</text>
+                        <postback>hallo</postback>
+                </button>
+            </card>
+                
+              
+            
+        </template>
+    </category>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</aiml>

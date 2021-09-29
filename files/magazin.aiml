@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern># Magazin ^</pattern>
+	    <template>Wir haben eine reihe an interessanten Magazinbeiträgen. Du kannst durch den kleinen Pfeil unter dem Beitrag navigieren.
+	        <carousel>
+	            <card>
+                    <image>https://www.opti-wohnwelt.de/pub/media/magazin/2021/0921/sideboard_namur_vorschau.jpg</image>
+                    <title>Rustikal und Industrial</title>
+                    <subtitle>Esszimmer im rustikalen Industrial-Style</subtitle>
+                    <button>
+                        <text>Zum Beitrag</text>
+                        <url>https://www.opti-wohnwelt.de/wohnmagazin/esszimmer-rustikal-industrial.html</url>
+                    </button>
+                    <button>
+                        <text>Zu allen Magazinbeiträgen</text>
+                        <url>https://www.opti-wohnwelt.de/wohnmagazin.html</url>
+                    </button>
+                </card>
+	            <card>
+	                <image>https://www.opti-wohnwelt.de/pub/media/magazin/2021/0921/schaukelstuhl-vorschau.jpg</image>
+	                <title>Schaukelstühle  </title>
+	                <subtitle>Klassiker im neuen Design</subtitle>
+	                <button>
+	                    <text>Zum Beitrag</text>
+	                    <url>https://www.opti-wohnwelt.de/wohnmagazin/schaukelstuehle.html</url>
+                    </button>
+                    <button>
+                        <text>Zu allen Magazinbeiträgen</text>
+                        <url>https://www.opti-wohnwelt.de/wohnmagazin.html</url>
+                    </button>
+                </card>
+                <card>
+                    <image>https://www.opti-wohnwelt.de/pub/media/magazin/2021/0921/herbstfarben-vorschau.jpg</image>
+                    <title>Trendfarben</title>
+                    <subtitle>Herbst 2021</subtitle>
+                    <button>
+                        <text>Zum Beitrag</text>
+                        <url>https://www.opti-wohnwelt.de/wohnmagazin/trendfarben-herbst.html</url>
+                    </button>
+                    <button>
+                        <text>Zu allen Magazinbeiträgen</text>
+                        <url>https://www.opti-wohnwelt.de/wohnmagazin.html</url>
+                    </button>
+                </card>
+                <card>
+                    <image>https://www.opti-wohnwelt.de/pub/media/magazin/2021/0921/schnelle-einrichtungsideen-vorschaubild.jpg</image>
+                    <title>Große Wirkung, wenig Aufwand</title>
+                    <subtitle>10 schnelle Einrichtungsupdates</subtitle>
+                    <button>
+                        <text>Zum Beitrag</text>
+                        <url>https://www.opti-wohnwelt.de/wohnmagazin/10-schnelle-einrichtungsupdates.html</url>
+                    </button>
+                    <button>
+                        <text>Zu allen Magazinbeiträgen</text>
+                        <url>https://www.opti-wohnwelt.de/wohnmagazin.html</url>
+                    </button>
+                </card>
+                <card>
+                    <image>https://www.opti-wohnwelt.de/pub/media/magazin/2021/0821/vorschaubild_nobilia-cascada.jpg</image>
+                    <title>Vintage-Küche</title>
+                    <subtitle>Moderne Nostalgie</subtitle>
+                    <button>
+                        <text>Zum Beitrag</text>
+                        <url>https://www.opti-wohnwelt.de/wohnmagazin/vintage-kueche.html</url>
+                    </button>
+                    <button>
+                        <text>Zu allen Magazinbeiträgen</text>
+                        <url>https://www.opti-wohnwelt.de/wohnmagazin.html</url>
+                    </button>
+                </card>
+                <card>
+                    <image>https://www.opti-wohnwelt.de/pub/media/magazin/vorschaubild_futonbett_stefan.jpg</image>
+                    <title>Stauraum-Ideen </title>
+                    <subtitle>Für kleine Wohnungen</subtitle>
+                    <button>
+                        <text>Zum Beitrag</text>
+                        <url>https://www.opti-wohnwelt.de/pub/media/magazin/vorschaubild_futonbett_stefan.jpg</url>
+                    </button>
+                    <button>
+                        <text>Zu allen Magazinbeiträgen</text>
+                        <url>https://www.opti-wohnwelt.de/wohnmagazin.html</url>
+                    </button>
+                </card>
+            </carousel>
+        </template>
+    </category>
+    <category>
+        <pattern># Magazinbeiträge ^</pattern>
+        <template><srai>Magazin</srai></template>
+    </category>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</aiml>

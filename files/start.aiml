@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    XSTRING{Hallo, wie kann ich dir helfen?}
+  <category>
+    <pattern>*</pattern>
+    <template>Das verstehe ich noch nicht.</template>
+  </category>
+ <category>
+<pattern>Hallo ^</pattern>
+<template>
+    <think><set name="hour"><date format="%H"/></set></think>
+    <condition name="hour">
+        <li value="00">Oh Wow, so spät noch jemand hier? Guten Abend, wie kann ich dir helfen?</li>
+        <li value="01">Oh Wow, so spät noch jemand hier? Guten Abend, wie kann ich dir helfen?</li>
+        <li value="02">Oh Wow, so spät noch jemand hier? Guten Abend, wie kann ich dir helfen?</li>
+        <li value="03">Oh Wow, so spät noch jemand hier? Guten Abend, wie kann ich dir helfen?</li>
+        <li value="04">Guten Morgen, wie kann ich dir helfen?</li>
+        <li value="05">Guten Morgen, wie kann ich dir helfen?</li>
+        <li value="06">Guten Morgen, wie kann ich dir helfen?</li>
+        <li value="07">Guten Morgen, wie kann ich dir helfen?</li>
+        <li value="08">Guten Morgen, wie kann ich dir helfen?</li>
+        <li value="09">Guten Morgen, wie kann ich dir helfen?</li>
+        <li value="10">Guten Morgen, wie kann ich dir helfen?</li>
+        <li value="11">Guten Tag, wie kann ich dir helfen?</li>
+        <li value="12">Guten Tag, wie kann ich dir helfen?</li>
+        <li value="13">Guten Tag, wie kann ich dir helfen?</li>
+        <li value="14">Guten Tag, wie kann ich dir helfen?</li>
+        <li value="15">Guten Tag, wie kann ich dir helfen?</li>
+        <li value="16">Guten Tag, wie kann ich dir helfen?</li>
+        <li value="17">Guten Tag, wie kann ich dir helfen?</li>
+        <li value="18">Guten Abend, wie kann ich dir helfen?</li>
+        <li value="19">Guten Abend, wie kann ich dir helfen?</li>
+        <li value="20">Guten Abend, wie kann ich dir helfen?</li>
+        <li value="21">Guten Abend, wie kann ich dir helfen?</li>
+        <li value="22">Guten Abend, wie kann ich dir helfen?</li>
+        <li value="23">Guten Abend, wie kann ich dir helfen?</li>
+    </condition>
+    <reply>OptiCard</reply>
+    <reply>Newsletter</reply>
+    <reply>Produkthilfe</reply>
+    <reply>FAQ</reply>
+    <reply>Anfahrt</reply>
+    <reply>Prospekt</reply>
+</template> 
+</category>
+  
+  
+  <category>
+  <pattern>Hi ^</pattern>
+  <template>
+  <srai> Hallo </srai>
+  </template>
+ </category>
+ <category>
+  <pattern>Hallöchen ^</pattern>
+  <template>
+  <srai> Hallo </srai>
+  </template>
+ </category>
+ <category>
+  <pattern>Moin ^</pattern>
+  <template>
+  <srai> Hallo </srai>
+  </template>
+ </category>
+ <category>
+  <pattern>Guten Morgen ^</pattern>
+  <template>
+  <srai> Hallo </srai>
+  </template>
+ </category>
+ <category>
+  <pattern>Guten Abend ^</pattern>
+  <template>
+  <srai> Hallo </srai>
+  </template>
+ </category>
+ <category>
+     <pattern>Ich heiße *</pattern>
+     <template>Hey <set name="username"><star> </star></set> , ich hoffe es geht dir gut. Wie kann ich dir helfen?</template>
+ </category>
+ 
+ <category>
+     <pattern>Mein Name ist *</pattern>
+     <template><srai>Ich heiße <star></star></srai></template>
+ </category>
+ 
+ <category>
+     <pattern>Ich bin *</pattern>
+     <template><srai>Ich heiße <star></star></srai></template>
+ </category>
+ 
+<category>
+    <pattern>Hey ^</pattern>
+    <template><srai>Hallo</srai></template>
+</category>
+
+ <category>
+    <pattern>Hi ^</pattern>
+    <template><srai>Hallo</srai></template>
+</category>
+<category>
+    <pattern>Servus ^</pattern>
+    <template><srai>Hallo</srai></template>
+</category>
+ <category>
+    <pattern>Guten Tag *</pattern>
+    <template><srai>Hallo</srai></template>
+</category>
+ 
+
+ 
+ 
+ <category>
+     <pattern>Wie heiße ich</pattern>
+     <template>Du bist <get name="username"></get>, oder?</template>
+ </category>
+ 
+ 
+ 
+ <category>
+     <pattern>sag *</pattern>
+     <template><denormalize><star></star></denormalize></template>
+ </category>
+
+<category>
+    <pattern>sag mal bitte *</pattern>
+    <template><denormalize><star></star></denormalize></template>
+</category>
+ 
+ 
+ <category>
+     <pattern>reset</pattern>
+     <template> <set name="topic">reset</set></template>
+ </category>
+ 
+ 
+ <category>
+     <pattern>Hilfe</pattern>
+     <template>Zu welchem Thema brauchst du Hilfe? z.B. OptiCard, Newsletter, Produkt</template>
+ </category>
+ 
+ 
+ <category>
+     <pattern>Test</pattern>
+     <template><size></size></template>
+ </category>
+ 
+ 
+ <category>
+     <pattern>Hello</pattern>
+     <template>I'm sorry, I'm a german-talking bot. I only can speak a little bit of english. Try something like "Hallo"
+     or "Hey".</template>
+ </category>
+
+<category>
+    <pattern>How are you</pattern>
+    <template>I'm fine, but can you speak german?</template>
+</category>
+ 
+ <category>
+     <pattern>Ok</pattern>
+     <template></template>
+ </category>
+ 
+ 
+ 
+</aiml>
+

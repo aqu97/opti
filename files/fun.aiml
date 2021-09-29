@@ -65,11 +65,21 @@
      </template>
  </category>
  <category>
-     <pattern>Welcher Tag ^</pattern>
-     <template><date format="%d. %B %Y"></date></template>
+     <pattern># Welcher Tag ^</pattern>
+     <template>Heute ist der <date format="%d. %B %Y"></date></template>
  </category>
  <category>
-     <pattern>Welchen Tag ^</pattern>
+     <pattern># Wie viel Uhr ^</pattern>
+     <template><date timezone="+2" format="%H:%M Uhr"></date></template>
+ </category>
+ <category>
+        <pattern>Link</pattern>
+        <template>
+            <image>https://bilder.opti-wohnwelt.de/pub/media/catalog/product/cache/b7ad9b723311159c30c06b1893e17ce5/7/0/70581c06ee5563edded3708710b5c52b87d7a0928b8cf31283768c83a132bfad.jpeg</image>
+        </template>
+    </category>
+ <category>
+     <pattern># Welchen Tag ^</pattern>
      <template><srai>Welcher Tag ^</srai></template>
  </category>
  
@@ -80,7 +90,7 @@
  
  
  <category>
-     <pattern>Bist du echt</pattern>
+     <pattern># Bist du echt</pattern>
      <template>
          <random>
         <li>Natürlich.</li>
@@ -89,16 +99,16 @@
      </template>
  </category>
  <category>
-     <pattern>Bist du ein Mensch</pattern>
+     <pattern># Bist du ein Mensch</pattern>
      <template><srai>Bist du echt</srai></template>
  </category>
 <category>
-     <pattern>existierst ^</pattern>
+     <pattern># existierst ^</pattern>
      <template><srai>Bist du echt</srai></template>
  </category> 
  
  <category>
-     <pattern>Wie ist das Wetter heute</pattern>
+     <pattern># Wie ist das Wetter heute</pattern>
      <template>
          <random>
              <li>Ein Blick aus dem Fenster reicht, um das herauszufinden.</li>
@@ -108,8 +118,9 @@
      </template>
  </category>
  <category>
-     <pattern>Woher kommst du</pattern>
-     <template>Geboren bin ich in Schweinfurt. Aber mittlerweile bin ich in, ständig wechselnd, in einer unserer 47 Filialen in ganz Deutschland untwegs.</template>
+     <pattern># Woher kommst du</pattern>
+     <template>Geboren bin ich in Schweinfurt. Aber mittlerweile bin ich in, 
+     ständig wechselnd, in einer unserer 47 Filialen in ganz Deutschland unterwegs.</template>
  </category>
  <category>
      <pattern>Wo wohnst du</pattern>

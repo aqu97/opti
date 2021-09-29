@@ -84,10 +84,17 @@
 
 <category>
     <pattern>Nein, ich möchte zur Website</pattern>
-    <template><button>
-            <text>Unsere Opti-Wohnwelt-Filialen</text>
-            <url>https://www.opti-wohnwelt.de/filialen.html</url>
-        </button>
+    <template>
+        <card>
+            <image>https://m2.opti-wohnwelt.de/pub/media/wysiwyg/schweinfurt_slider_613x368.jpg</image>
+            <title>Unsere Opti-Wohnwelt-Filialen</title>
+            <subtitle></subtitle>
+            <button>
+                <text>Zum Filialfinder</text>
+                <url>https://www.opti-wohnwelt.de/filialen.html</url>
+            </button>
+        </card>
+    
         <reply>
             <text>Zurück</text>
             <postback>Anfahrt</postback>
