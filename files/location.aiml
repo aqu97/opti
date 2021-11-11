@@ -9,6 +9,11 @@
             Alternativ kann ich Ihnen auch selbst die Filialen nach Bundesland filtern.
         <reply>Ja, nach Bundesland filtern</reply>
         <reply>Nein, ich möchte zur Website</reply>
+        <reply>
+            <text>Zurück</text>
+            <postback>hallo</postback>
+        </reply>
+        
     </template>
 </category>
 
@@ -93,12 +98,13 @@
                 <text>Zum Filialfinder</text>
                 <url>https://www.opti-wohnwelt.de/filialen.html</url>
             </button>
+            <button>
+                <text>Zurück</text>
+                <postback>Anfahrt</postback>
+            </button>
         </card>
     
-        <reply>
-            <text>Zurück</text>
-            <postback>Anfahrt</postback>
-        </reply></template>
+        </template>
 </category>
 
    
@@ -109,8 +115,8 @@
         <reply>MegaStore Gifhorn</reply>
         <reply>MegaStore Goslar</reply>
         <reply>MegaStore Helmstedt</reply>
-        <reply>Schiffdorf-Spaden</reply>
-        <reply>Uelzen</reply>
+        <reply>Schiffdorf Spaden</reply>
+        <reply>MegaStore Uelzen</reply>
         <reply>Werlte</reply>
         <reply>
             <text>Zurück</text>
@@ -123,9 +129,9 @@
     <pattern>Baden Württemberg</pattern>
     <template>
         <reply>Backnang</reply>
-        <reply>Karlsruhe</reply>
+        <reply>MegaStore Karlsruhe</reply>
         <reply>Pforzheim</reply>
-        <reply>Tettnang</reply>
+        <reply>MegaStore Tettnang</reply>
         <reply><text>Zurück</text>
             <postback>Ja, nach Bundesland filtern</postback>
         </reply>
@@ -138,12 +144,12 @@
         <reply>Bamberg</reply>
         <reply>Schweinfurt</reply>
         <reply>Dillingen</reply>
-        <reply>Kaufbeuren</reply>
-        <reply>Mühldorf am Inn</reply>
-        <reply>Neu-Ulm</reply>
+        <reply>MegaStore Kaufbeuren</reply>
+        <reply>MegaStore Mühldorf</reply>
+        <reply>Neu Ulm</reply>
         <reply>Niederlauer</reply>
-        <reply>Nürnberg</reply>
-        <reply>Regensburg</reply>
+        <reply>MegaStore Nürnberg</reply>
+        <reply>MegaStore Regensburg</reply>
         <reply>Würzburg</reply>
         <reply><text>Zurück</text>
             <postback>Ja, nach Bundesland filtern</postback>
@@ -167,7 +173,7 @@
     <template>
         <reply>Butzbach</reply>
         <reply>MegaStore Haiger</reply>
-        <reply>Petersburg/Fulda</reply>
+        <reply>Petersburg Fulda</reply>
         <reply><text>Zurück</text>
             <postback>Ja, nach Bundesland filtern</postback>
         </reply>
@@ -201,7 +207,7 @@
     <pattern>Nordrhein Westfalen</pattern>
     <template>
         <reply>MegaStore Herzogenrath</reply>
-        <reply>Plettenberg</reply>
+        <reply>MegaStore Plettenberg</reply>
         <reply><text>Zurück</text>
             <postback>Ja, nach Bundesland filtern</postback>
         </reply>
@@ -233,7 +239,7 @@
     <template>
         <reply>Neubrandenburg</reply>
         <reply>MegaStore Neubrandenburg</reply>
-        <reply>Schwerin</reply>
+        <reply>MegaStore Schwerin</reply>
         <reply><text>Zurück</text>
             <postback>Ja, nach Bundesland filtern</postback>
         </reply>

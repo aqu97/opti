@@ -12,14 +12,16 @@
 <b>Lageröffnungszeiten:</b>     Mo.-Fr.: 10:00 bis 17:00 Uhr<br></br>
 Sa.: 10:00 bis 16:00 Uhr
 <split></split>
-<link>
+<button>
     <text>Planen Sie hier Ihre Anfahrt</text>
     <url>https://goo.gl/maps/Rsmf8QzQcbPrP2iBA</url>
-</link>
-  <!--   <button>
-         <text>Planen Sie Ihre Anfahrt</text>
-         <url>https://goo.gl/maps/Rsmf8QzQcbPrP2iBA</url>
-     </button>-->
+</button>
+<button>
+    <text>Zurück</text>
+    <postback>Niedersachsen</postback>
+</button>
+
+        
     </template>
 </category>
 
@@ -37,6 +39,10 @@ Sa.: 10:00 bis 16:00 Uhr
     <button>
          <text>Planen Sie Ihre Anfahrt</text>
          <url>https://goo.gl/maps/tqxGW9Uhw7QiukSa6</url>
+     </button>
+     <button>
+         <text>Zurück</text>
+         <postback>Baden Württemberg</postback>
      </button>
     </template>
 </category>
@@ -56,6 +62,10 @@ Sa.: 10:00 bis 16:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/ajqBu68tScVEsmvaA</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Bayern</postback>
+     </button>
     </template>
 </category>
 
@@ -73,6 +83,10 @@ Sa.: 10:00 bis 16:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/otX2sg797edYB2T3A</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Bremen</postback>
+     </button>
     </template>
 </category>
 
@@ -87,7 +101,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/3WY8bePfQni7z56A6</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Bremen</postback>
+     </button>
     </template>
 </category>
 
@@ -107,6 +124,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/iALb9sDAuXTZ33666</url></button>
+        <button>
+         <text>Zurück</text>
+         <postback>Hessen</postback>
+     </button>
     </template>
 </category>  
   
@@ -127,6 +148,10 @@ Mo. - Fr.: 10:00 bis 17:00 Uhr<br></br>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/1T7Gjg5c9iGERAAi9</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Bayern</postback>
+     </button>
     </template>
 </category> 
 <category>
@@ -145,6 +170,10 @@ Sa.: 09:30 bis 18:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/haA9rh5nFGYE4ccP8</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Thüringen</postback>
+     </button>
     </template>
 </category> 
 <category>
@@ -163,6 +192,10 @@ Sa.: 09:30 bis 14:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/oW19erjrz5YzhBJ19</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Brandenburg</postback>
+     </button>
     </template>
 </category> 
 <category>
@@ -180,6 +213,10 @@ Sa.: 09:30 bis 14:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/JScijJWCVaJotUNR8</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Niedersachsen</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -198,6 +235,10 @@ Sa.: 10:00 bis 16:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/8rtzF3SvWziQsDWw7</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Niedersachsen</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -213,6 +254,10 @@ Sa.: 10:00 bis 16:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/8rtzF3SvWziQsDWw7</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Hessen</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -229,6 +274,10 @@ Sa.: 10:00 bis 16:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/qqk324MZMyWzDcbT8</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Niedersachsen</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -244,6 +293,10 @@ Sa.: 10:00 bis 16:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/WpQiruLWkupYsYvB9</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Nordrhein Westfalen</postback>
+     </button>
     </template>
 </category>
 
@@ -261,6 +314,10 @@ Sa.: 10:00 bis 16:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/35jfVjxmi6kcHPh67</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Rheinland Pfalz</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -277,6 +334,10 @@ Sa.: 10:00 bis 16:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/iKc9WgKn8iqc9AFdA</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Schleswig Holstein</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -290,7 +351,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/EvnC9s7AQZN4Fiig8</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Baden Württemberg</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -304,11 +368,14 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/iKc9WgKn8iqc9AFdA</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Bayern</postback>
+     </button>
     </template>
 </category>
 <category>
-    <pattern># MegaStore Mühldorf am Inn ^</pattern>
+    <pattern># MegaStore Mühldorf ^</pattern>
     <template>
         84453 Mühldorf am Inn, Borsigstraße 15<br></br>
         Telefon: 08631 / 986780
@@ -319,7 +386,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/FbedBkXR9vB4ieHq8</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Bayern</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -337,6 +407,13 @@ Sa.: 10:00 bis 16:00 Uhr
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/dsrThMYc4Av7PWoc9</url>
     </button>
+    <button>
+         <text>Zurück</text>
+         <postback>Niedersachsen</postback>
+     </button><button>
+         <text>Zurück</text>
+         <postback>Bayern</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -354,7 +431,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/nmoHjpwwaS4r2CV86</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Mecklenburg Vorpommern</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -369,7 +449,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/7xFFV5Aa3GuAXKdj9</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Mecklenburg Vorpommern</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -387,7 +470,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/Gr1H4Z3vKVeRMYhv7</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Bayern</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -404,7 +490,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/eprqRM56q3YcWQtf6</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Bayern</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -418,7 +507,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/MswpfGQXFAqFCMsF6</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Baden Württemberg</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -436,7 +528,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/g4r4ZEJkLA3W8aXS6</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Nordrhein Westfalen</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -454,7 +549,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/FXfgnFvaJpBr3K399</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Brandenburg</postback>
+     </button>
     </template>
 </category><category>
     <pattern># MegaStore Regensburg ^</pattern>
@@ -467,7 +565,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/eboTbCA39pV8eSk68</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Bayern</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -483,7 +584,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/RVS8fRixct4CdMjX7</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Niedersachsen</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -501,7 +605,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/s9NMisqyYj2NSCiBA</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Thüringen</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -519,7 +626,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/ZvHrwXs3WceLtgAH6</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Bayern</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -534,7 +644,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/ncFmhgTmai4VwwUZ7</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Mecklenburg Vorpommern</postback>
+     </button>
     </template>
 </category>
 <category>
@@ -552,7 +665,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/7zFmvEceYFGHwGWn8</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Thüringen</postback>
+     </button>
   </template>
 </category>
 <category>
@@ -567,7 +683,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/So5w1E3Nrj3YeGHW8</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Baden Württemberg</postback>
+     </button>
   </template>
 </category>
 <category>
@@ -585,7 +704,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/SCYrqFYdVaryM9Vk9</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Niedersachsen</postback>
+     </button>
   </template>
 </category>
 <category>
@@ -603,7 +725,10 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/MzMj51U9ASTS4t7F6</url>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Niedersachsen</postback>
+     </button>
   </template>
 </category>
 <category>
@@ -619,18 +744,32 @@ Sa.: 10:00 bis 16:00 Uhr
        <button>
         <text>Planen Sie Ihre Anfahrt</text>
         <url>https://goo.gl/maps/9FE4jDCx3SnYHWYF6</url>
-    </button>
-    <delay>7</delay>
-    Konnte ich dir helfen? Falls ja kannst du gerne über deine Erfahrungen mit deiner Opti-Wohnwelt berichten und uns auf 
-    Ekomi bewerten.
-    <button>
-        <text>Zu Ekomi</text>
-        <url>https://www.ekomi.de/bewertungen-opti-wohnweltde.html</url>
-    </button>
-    <button>
-        <text>Falls nicht geht es hier zurück zum Anfang</text>
-        <postback>Hallo</postback>
-    </button>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Niedersachsen</postback>
+     </button>
+</template>
+</category>
+<category>
+    <pattern># Petersburg Fulda ^</pattern>
+    <template>
+        36100 Petersberg, Ignaz-Komp-Straße 1+7<br></br>
+        Telefon: 0661 / 4407000
+        <split></split>
+        <b>Öffnungszeiten:</b> 
+        Mo. - Fr.: 09:30 bis 19:00 Uhr<br></br>
+        Sa.: 09:30 bis 18:00 Uhr<split></split>
+        <b>Lageröffnungszeiten:</b>
+        Mo. - Fr.: 09:30 bis 18:00 Uhr<br></br>
+        Sa.: 09:30 bis 14:00 Uhr
+       <button>
+        <text>Planen Sie Ihre Anfahrt</text>
+        <url>https://goo.gl/maps/4f39NBakbVipien87</url>
+    </button><button>
+         <text>Zurück</text>
+         <postback>Hessen</postback>
+     </button>
+
   </template>
 </category>
 

@@ -12,7 +12,7 @@
 	            <url>https://www.opti-wohnwelt.de/opticard.html</url>
             </button>
         </card>
-<delay>4</delay>Alternativ oder bei sonstige Fragen erreichen Sie uns unter 0800 2008 222. Wir helfe Ihnen gerne weiter!
+<delay>2</delay>Alternativ oder bei sonstige Fragen erreichen Sie uns unter 0800 2008 222. Wir helfe Ihnen gerne weiter!
 	          <reply>
             <text>Zurück</text>
             <postback>hallo</postback>

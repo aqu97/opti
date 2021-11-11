@@ -41,6 +41,8 @@
     <reply>FAQ</reply>
     <reply>Anfahrt</reply>
     <reply>Prospekt</reply>
+    <reply>Magazin</reply>
+    <reply>Produktsuche</reply>
 </template> 
 </category>
   
@@ -163,7 +165,10 @@
      <template></template>
  </category>
  
- 
+ <category>
+     <pattern>2 = 3</pattern>
+     <template> 2 equals  3</template>
+ </category>
  
 </aiml>
 

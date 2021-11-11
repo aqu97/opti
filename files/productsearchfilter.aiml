@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<topic name="Wohnlandschaften">
+
+<category>
+    <pattern>Nein, keine Filter setzen</pattern>
+    <template>
+        <link>
+            <text>Hier gehts zu deinen Produkten!</text>
+            <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/wohnlandschaften.html</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>Ja</pattern>
+    <template><reply>Farbe</reply><reply>Preis</reply></template>
+</category>
+<category>
+    <pattern>Preis</pattern>
+    <template>Bitte Betrag eingeben (in diesem Format "800 bis 1200")</template>
+</category>
+<category>
+    <pattern>* bis *</pattern>
+    <template><think><set name="price1"><star index="1"></star></set>-<set name="price2"><star index="2"></star></set></think>
+    Okay!
+    <reply>Mehr Filter setzen</reply>
+    <reply>Nein, keine Filter mehr setzen</reply>
+    </template>
+</category>
+<category>
+    <pattern>Mehr Filter setzen</pattern>
+    <template>
+        <condition name="price1" value="1"><reply>Preis</reply></condition>
+        <condition name="color" value="none"><reply>Farbe</reply></condition>
+        <delay>1</delay>
+        <reply>Nein, keine Filter mehr setzen</reply>
+    </template>
+</category>
+
+        
+        <category>
+<pattern>Nein, keine Filter mehr setzen</pattern>
+<template><think><set var="matched"><srai>XEQ <get name="price1"/> XS  1  </srai></set></think>
+<condition var="matched">
+<li value="TRUE"><link>
+                    <text>Hier gehts zu deinen Produkten!</text>
+                    <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/wohnlandschaften.html?<get name="filtercolor"/>
+                    <denormalize>and</denormalize>pricerange=<get name="price1"/>-<get name="price2"/></url>
+                </link></li>
+<li><link>
+                    <text>Hier gehts zu deinen Podukten!</text>
+                    <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/wohnlandschaften.html?<get name="filtercolor"/>
+                    <denormalize>and</denormalize>pricerange=<get name="price1"/>-<get name="price2"/></url>
+                </link> </li>
+</condition>
+</template>
+</category>
+    
+<category>
+    <pattern>Farbe</pattern>
+    <template>
+        <reply>Anthrazit</reply><reply>Beige</reply><reply>Blau</reply><reply>Braun Rost</reply>
+        <reply>Creme</reply><reply>Gelb</reply><reply>Grau</reply><reply>Grau Braun</reply><reply>Grün</reply>
+        <reply>Orange</reply><reply>Rosa</reply><reply>Rot</reply><reply>Schwarz</reply>
+        <reply>Silber</reply><reply>Weiß</reply>
+    </template>
+</category>
+<category>
+    <pattern>Anthrazit</pattern>
+    <template><think><set name="color">Anthrazit</set><set name="filtercolor">filtercolor=Anthrazit</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+
+<category>
+    <pattern>Beige</pattern>
+    <template><think><set name="color">beige</set><set name="filtercolor">filtercolor=Beige</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+
+<category>
+    <pattern>Blau</pattern>
+    <template><think><set name="color">blau</set><set name="filtercolor">filtercolor=Blau</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Braun Rost</pattern>
+    <template><think><set name="color">Braun Rost</set><set name="filtercolor">filtercolor=Braun+%2F+Rost</set></think>
+    Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Creme</pattern>
+    <template><think><set name="color">creme</set><set name="filtercolor">filtercolor=Creme</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Gelb</pattern>
+    <template><think><set name="color">gelb</set><set name="filtercolor">filtercolor=Gelb</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category><category>
+    <pattern>Grau</pattern>
+    <template><think><set name="color">grau</set><set name="filtercolor">filtercolor=Grau</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category><category>
+    <pattern>Grau Braun</pattern>
+    <template><think><set name="color">Grau Braun</set><set name="filtercolor">filtercolor=Grau-Braun</set></think>
+    Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category><category>
+    <pattern>Grün</pattern>
+    <template><think><set name="color">grün</set><set name="filtercolor">filtercolor=Grün</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category><category>
+    <pattern>Orange</pattern>
+    <template><think><set name="color">orange</set><set name="filtercolor">filtercolor=Orange</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category><category>
+    <pattern>Rosa</pattern>
+    <template><think><set name="color">rosa</set><set name="filtercolor">filtercolor=Rosa</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category><category>
+    <pattern>Rot</pattern>
+    <template><think><set name="color">rot</set><set name="filtercolor">filtercolor=Rot</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category><category>
+    <pattern>Schwarz</pattern>
+    <template><think><set name="color">schwarz</set><set name="filtercolor">filtercolor=Schwarz</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category><category>
+    <pattern>Silber</pattern>
+    <template><think><set name="color">silber</set><set name="filtercolor">filtercolor=Silber</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category><category>
+    <pattern>Weiß</pattern>
+    <template><think><set name="color">weiß</set><set name="filtercolor">filtercolor=Weiß</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+</topic>
+
+
+
+<topic name="Sessel">
+
+<category>
+    <pattern>Nein, keine Filter setzen</pattern>
+    <template>
+        <link>
+            <text>Hier gehts zu deinen Produkten!</text>
+            <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/sessel.html</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>Ja</pattern>
+    <template><reply>Farbe</reply><reply>Preis</reply></template>
+</category>
+<category>
+    <pattern>Preis</pattern>
+    <template>Bitte Betrag eingeben (in diesem Format "50 bis 400")</template>
+</category>
+<category>
+    <pattern>* bis *</pattern>
+    <template><think><set name="price1"><star index="1"></star></set>-<set name="price2"><star index="2"></star></set></think>
+    Okay!
+    <reply>Mehr Filter setzen</reply>
+    <reply>Nein, keine Filter mehr setzen</reply>
+    </template>
+</category>
+<category>
+    <pattern>Mehr Filter setzen</pattern>
+    <template>
+        <condition name="price1" value="1"><reply>Preis</reply></condition>
+        <condition name="color" value="none"><reply>Farbe</reply></condition>
+        <delay>1</delay>
+        <reply>Nein, keine Filter mehr setzen</reply>
+    </template>
+</category>
+
+        
+        <category>
+<pattern>Nein, keine Filter mehr setzen</pattern>
+<template><think><set var="matched"><srai>XEQ <get name="price1"/> XS  1  </srai></set></think>
+<condition var="matched">
+<li value="TRUE"><link>
+                    <text>Hier gehts zu deinen Produkten!</text>
+                    <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/sessel.html?<get name="filtercolor"/>
+                    <denormalize>and</denormalize>pricerange=<get name="price1"/>-<get name="price2"/></url>
+                </link></li>
+<li><link>
+                    <text>Hier gehts zu deinen Podukten!</text>
+                    <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/sessel.html?<get name="filtercolor"/>
+                    <denormalize>and</denormalize>pricerange=<get name="price1"/>-<get name="price2"/></url>
+                </link> </li>
+</condition>
+</template>
+</category>
+    
+<category>
+    <pattern>Farbe</pattern>
+    <template>
+        <reply>Anthrazit</reply><reply>Beige</reply><reply>Braun Rost</reply>
+        <reply>Gelb</reply><reply>Grau</reply><reply>Holz</reply><reply>Mehrfarbig</reply>
+        <reply>Rot</reply><reply>Schwarz</reply><reply>Weiß</reply>
+    </template>
+</category>
+<category>
+    <pattern>Anthrazit</pattern>
+    <template><think><set name="color">Anthrazit</set><set name="filtercolor">filtercolor=Anthrazit</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+
+<category>
+    <pattern>Beige</pattern>
+    <template><think><set name="color">beige</set><set name="filtercolor">filtercolor=Beige</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Braun Rost</pattern>
+    <template><think><set name="color">Braun Rost</set><set name="filtercolor">filtercolor=Braun+%2F+Rost</set></think>
+    Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Gelb</pattern>
+    <template><think><set name="color">gelb</set><set name="filtercolor">filtercolor=Gelb</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Grau</pattern>
+    <template><think><set name="color">grau</set><set name="filtercolor">filtercolor=Grau</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Holz</pattern>
+    <template><think><set name="color">grün</set><set name="filtercolor">filtercolor=Holz</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Mehrfarbig</pattern>
+    <template><think><set name="color">orange</set><set name="filtercolor">filtercolor=Mehrfarbig</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Rot</pattern>
+    <template><think><set name="color">rot</set><set name="filtercolor">filtercolor=Rot</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Schwarz</pattern>
+    <template><think><set name="color">schwarz</set><set name="filtercolor">filtercolor=Schwarz</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Weiß</pattern>
+    <template><think><set name="color">weiß</set><set name="filtercolor">filtercolor=Weiß</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+</topic>
+
+<topic name="Sofas">
+
+<category>
+    <pattern>Nein, keine Filter setzen</pattern>
+    <template>
+        <link>
+            <text>Hier gehts zu deinen Produkten!</text>
+            <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/sofas.html</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>Ja</pattern>
+    <template><reply>Farbe</reply><reply>Preis</reply></template>
+</category>
+<category>
+    <pattern>Preis</pattern>
+    <template>Bitte Betrag eingeben (in diesem Format "1000 bis 2000")</template>
+</category>
+<category>
+    <pattern>* bis *</pattern>
+    <template><think><set name="price1"><star index="1"></star></set>-<set name="price2"><star index="2"></star></set></think>
+    Okay!
+    <reply>Mehr Filter setzen</reply>
+    <reply>Nein, keine Filter mehr setzen</reply>
+    </template>
+</category>
+<category>
+    <pattern>Mehr Filter setzen</pattern>
+    <template>
+        <condition name="price1" value="1"><reply>Preis</reply></condition>
+        <condition name="color" value="none"><reply>Farbe</reply></condition>
+        <delay>1</delay>
+        <reply>Nein, keine Filter mehr setzen</reply>
+    </template>
+</category>
+
+        
+        <category>
+<pattern>Nein, keine Filter mehr setzen</pattern>
+<template><think><set var="matched"><srai>XEQ <get name="price1"/> XS  1  </srai></set></think>
+<condition var="matched">
+<li value="TRUE"><link>
+                    <text>Hier gehts zu deinen Produkten!</text>
+                    <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/sofas.html?<get name="filtercolor"/>
+                    <denormalize>and</denormalize>pricerange=<get name="price1"/>-<get name="price2"/></url>
+                </link></li>
+<li><link>
+                    <text>Hier gehts zu deinen Podukten!</text>
+                    <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/sofas.html?<get name="filtercolor"/>
+                    <denormalize>and</denormalize>pricerange=<get name="price1"/>-<get name="price2"/></url>
+                </link> </li>
+</condition>
+</template>
+</category>
+    
+<category>
+    <pattern>Farbe</pattern>
+    <template>
+        <reply>Anthrazit</reply><reply>Beige</reply><reply>Blau</reply><reply>Braun Rost</reply>
+        <reply>Gelb</reply><reply>Grau</reply><reply>Grau Braun</reply><reply>Grün</reply><reply>Lila</reply>
+        <reply>Mehrfarbig</reply><reply>Rosa</reply><reply>Rot</reply><reply>Schwarz</reply><reply>Weiß</reply>
+    </template>
+</category>
+<category>
+    <pattern>Anthrazit</pattern>
+    <template><think><set name="color">Anthrazit</set><set name="filtercolor">filtercolor=Anthrazit</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+
+<category>
+    <pattern>Beige</pattern>
+    <template><think><set name="color">beige</set><set name="filtercolor">filtercolor=Beige</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+
+<category>
+    <pattern>Blau</pattern>
+    <template><think><set name="color">blau</set><set name="filtercolor">filtercolor=Blau</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Braun Rost</pattern>
+    <template><think><set name="color">Braun Rost</set><set name="filtercolor">filtercolor=Braun+%2F+Rost</set></think>
+    Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Gelb</pattern>
+    <template><think><set name="color">gelb</set><set name="filtercolor">filtercolor=Gelb</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Grau</pattern>
+    <template><think><set name="color">grau</set><set name="filtercolor">filtercolor=Grau</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Grau Braun</pattern>
+    <template><think><set name="color">Grau Braun</set><set name="filtercolor">filtercolor=Grau-Braun</set></think>
+    Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Grün</pattern>
+    <template><think><set name="color">grün</set><set name="filtercolor">filtercolor=Grün</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Orange</pattern>
+    <template><think><set name="color">orange</set><set name="filtercolor">filtercolor=Orange</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Rosa</pattern>
+    <template><think><set name="color">rosa</set><set name="filtercolor">filtercolor=Rosa</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Rot</pattern>
+    <template><think><set name="color">rot</set><set name="filtercolor">filtercolor=Rot</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Schwarz</pattern>
+    <template><think><set name="color">schwarz</set><set name="filtercolor">filtercolor=Schwarz</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Silber</pattern>
+    <template><think><set name="color">silber</set><set name="filtercolor">filtercolor=Silber</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+<category>
+    <pattern>Weiß</pattern>
+    <template><think><set name="color">weiß</set><set name="filtercolor">filtercolor=Weiß</set></think>Okay, möchtest du noch andere Filter setzen?
+    <reply>Mehr Filter setzen</reply><reply>Nein, keine Filter mehr setzen</reply></template>
+</category>
+</topic>
+
+
+</aiml>

@@ -88,6 +88,15 @@
      <template><srai>welcher tag ^</srai></template>
  </category>
  
+ <category><pattern>Wie lange noch bis Weihnachten</pattern>
+<template>Noch 
+<interval>
+    <jformat>MMMMMMMMM dd</jformat>
+    <style>days</style>
+    <from><date jformat="MMMMMMMMM dd"/></from>
+    <to>December 25</to>
+</interval> Tage bis Weihnachten.</template>
+</category>
  
  <category>
      <pattern># Bist du echt</pattern>
@@ -126,10 +135,4 @@
      <pattern>Wo wohnst du</pattern>
      <template>woher kommst du</template>
  </category>
- 
- 
- 
- 
- 
- 
 </aiml>

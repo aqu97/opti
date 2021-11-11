@@ -3,7 +3,11 @@
 	<category>
 	    <pattern># Produkt ^</pattern>
 	    <template><think><set name="topic">product</set></think>Okay. Bitte sagen Sie mir die Artikelnummer<delay>1</delay>Falls Sie die Artikelnummer 
-nicht wissen, können Sie mir auch den Namen des gesuchten Produktes nennen.</template>
+nicht wissen, können Sie mir auch den Namen des gesuchten Produktes nennen.
+<reply>
+            <text>Zurück</text>
+            <postback>hallo</postback>
+        </reply></template>
 </category>
 
 

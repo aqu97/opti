@@ -7,13 +7,15 @@
   <delay>2</delay>
 
   Mehr Infos zur ihrer OptiCard finden Sie hier.
-        <button>
-            <text>Zur OptiCard</text>
-            <url>https://www.opti-wohnwelt.de/opticard.html</url>
-        </button><reply>
+        <reply>
+              <text>Zur OptiCard</text>
+              <postback>Opticard</postback>
+        </reply>
+        <reply>
             <text>Zurück</text>
             <postback>hallo</postback>
         </reply>
+        
     </template>
  </category>
 

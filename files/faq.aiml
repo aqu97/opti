@@ -3,10 +3,14 @@
 	<category>
 	    <pattern>FAQ</pattern>
 	    <template>Eine FAQ-Seite haben wir bis jetzt noch nicht. 
-	    <delay>2,5</delay>
+	    <delay>2</delay>
         Sie können uns aber gerne unter der 0800 2008 222
 	    erreichen oder eine E-Mail an info@opti-wohnwelt.de senden.
-	   
+	   <reply>
+            <text>Zurück</text>
+            <postback>hallo</postback>
+        </reply>
+        
 	    </template>
 	   
     </category>

@@ -5,8 +5,8 @@
         <template>
             <card>
                 <image>https://backend.opti-wohnwelt.de/pub/media/prospekte/0921_ow12_oms/cover.jpg</image>
-                    <title>Opti-Wohnwelt Prospekt</title>
-                    <subtitle>40 % in allen Abteilungen</subtitle>
+                    <title>Opti-Wohnwelt Prospekte</title>
+                    <subtitle></subtitle>
                     <button>
                         <text>Hier gehts zu unseren Prospekten</text>
                         <url>https://www.opti-wohnwelt.de/prospekte.html</url>

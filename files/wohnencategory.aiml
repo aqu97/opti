@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern># Produktsuche ^</pattern>
+    <template><think><set name="topic">productsearchfilter</set>
+    <set name="price1">1</set>
+    <set name="price2">99999</set>
+    <set name="color">none</set>
+    <set name="filtercolor">none</set>
+    </think>Okay, welches Zimmer?
+    <reply>Wohnen</reply>
+    <reply>Schlafen</reply>
+    <reply>Küchen</reply>
+    <reply>Speisen</reply>
+    <reply>Bad</reply>
+    <reply>Garten</reply>
+    <reply>Deko und Textil</reply>
+    <reply>Flur und Büro</reply>
+    <reply>Leuchten</reply>
+    <reply>Sale</reply>
+    </template>
+</category>
+<category>
+    <pattern># Artikelsuche ^</pattern>
+    <template><srai></srai></template>
+</category>
+<topic name="productsearchfilter">
+<category>
+    <pattern>Wohnen</pattern>
+    <template>Okay, und weiter?
+    <reply>Polstergarnituren</reply>
+    <reply>Couch und Beistelltische</reply>
+    <reply>Wohnzimmermöbel</reply>
+    <reply>Wohnzimmerbeleuchtung</reply>
+    <reply>Wohnaccessoires</reply>
+    </template>
+</category>
+<category>
+    <pattern>Polstergarnituren</pattern>
+    <template>Okay, und weiter?
+    <reply>Wohnlandschaften</reply>
+    <reply>Sessel</reply>
+    <reply>Sofas</reply>
+    <reply>Schlafsofas</reply>
+    </template>
+</category>
+<category>
+    <pattern>Wohnlandschaften</pattern>
+    <template><think><set name="topic">Wohnlandschaften</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein, keine Filter setzen
+</reply>
+    </template>
+</category>
+<category>
+    <pattern>Sessel</pattern>
+    <template><think><set name="topic">Sessel</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein, keine Filter setzen
+</reply>
+    </template>
+</category>
+<category>
+    <pattern>Sofas</pattern>
+    <template><think><set name="topic">Sofas</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein, keine Filter setzen
+</reply>
+    </template>
+</category>
+<category>
+    <pattern>Schlafsofas</pattern>
+    <template><think><set name="topic">Schlafsofas</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein, keine Filter setzen
+</reply>
+    </template>
+</category>
+<category>
+    <pattern>Couch und Beistelltische</pattern>
+    <template>Okay, und weiter?
+    <reply>Couchtische</reply>
+    <reply>Beistelltische</reply>
+    </template>
+</category>
+<category>
+    <pattern>Couchtische</pattern>
+    <template><think><set name="topic">Couchtische</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Beistelltische</pattern>
+    <template><think><set name="topic">Beistelltische</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Wohnzimmermöbel</pattern>
+    <template>Okay, und weiter?
+    <reply>Kommoden</reply>
+    <reply>Regale</reply>
+    <reply>Sideboards</reply>
+    <reply>Wohnwände</reply>
+    <reply>TV Möbel</reply>
+    </template>
+</category>
+<category>
+    <pattern>Kommoden</pattern>
+    <template><think><set name="topic">Kommoden</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Regale</pattern>
+    <template><think><set name="topic">Regale</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Wohnwände</pattern>
+    <template><think><set name="topic">Wohnwände</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Sideboards</pattern>
+    <template><think><set name="topic">Sideboards</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>TV Möbel</pattern>
+    <template><think><set name="topic">TV Möbel</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Wohnzimmerbeleuchtung</pattern>
+    <template>Okay, und weiter?
+    <reply>Deckenleuchten</reply>
+    <reply>Tischleuchten</reply>
+    <reply>Stehleuchten</reply>
+    </template>
+</category>
+<category>
+    <pattern>Deckenleuchten</pattern>
+    <template><think><set name="topic">Deckenleuchten</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Tischleuchten</pattern>
+    <template><think><set name="topic">Tischleuchten</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Stehleuchten</pattern>
+    <template><think><set name="topic">Stehleuchten</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Wohnaccessoires</pattern>
+    <template>Okay, und weiter?
+    <reply>Decken</reply>
+    <reply>Kissen</reply>
+    <reply>Dekoration</reply>
+    <reply>Teppiche</reply>
+    </template>
+</category>
+<category>
+    <pattern>Decken</pattern>
+    <template><think><set name="topic">Decken</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Kissen</pattern>
+    <template><think><set name="topic">Kissen</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Dekoration</pattern>
+    <template><think><set name="topic">Dekoration</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Teppiche</pattern>
+    <template><think><set name="topic">Teppiche</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Schlafen</pattern>
+    <template>Okay, und weiter?
+    <reply>Betten</reply>
+    <reply>Matratzen und Lattenrahmen</reply>
+    <reply>Kleiderschränke</reply>
+    <reply>Schlafzimmermöbel</reply>
+    <reply>Schlafzimmerleuchten</reply>
+    <reply>Bettwäsche</reply>
+    </template>
+</category>
+<category>
+    <pattern>Betten</pattern>
+    <template>Okay, und weiter?
+    <reply>Boxspringbetten</reply>
+    <reply>Polsterbetten</reply>
+    <reply>Einzelbetten</reply>
+    <reply>Doppelbetten</reply>
+    </template>
+</category>
+<category>
+    <pattern>Boxspringbetten</pattern>
+    <template><think><set name="topic">Boxspringbetten</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Polsterbetten</pattern>
+    <template><think><set name="topic">Polsterbetten</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Einzelbetten</pattern>
+    <template><think><set name="topic">Einzelbetten</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Doppelbetten</pattern>
+    <template><think><set name="topic">Doppelbetten</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Matratzen und Lattenrahmen</pattern>
+    <template>Okay, und weiter?
+    <reply>Matratzen</reply>
+    <reply>Lattenrahmen</reply>
+    <reply>Matratzensets</reply>
+    </template>
+</category>
+<category>
+    <pattern>Matratzen</pattern>
+    <template><think><set name="topic">Matratzen</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Lattenrahmen</pattern>
+    <template><think><set name="topic">Lattenrahmen</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Matratzensets</pattern>
+    <template><think><set name="topic">Matratzensets</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Kleiderschränke</pattern>
+    <template>Okay, und weiter?
+    <reply>Schwebetürenschränke</reply>
+    <reply>Drehtürenschränke</reply>
+    </template>
+</category>
+<category>
+    <pattern>Schwebetürenschränke</pattern>
+    <template><think><set name="topic">Schwebetürenschränke</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Drehtürenschränke</pattern>
+    <template><think><set name="topic">Drehtürenschränke</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Schlafzimmermöbel</pattern>
+    <template>Okay, und weiter?
+    <reply>Kommoden</reply>
+    <reply>Nachttische</reply>
+    <reply>Komplette Schlafzimmer</reply>
+    </template>
+</category>
+<category>
+    <pattern>Kommoden</pattern>
+    <template><think><set name="topic">Kommoden</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Nachttische</pattern>
+    <template><think><set name="topic">Nachttische</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Komplette Schlafzimmer</pattern>
+    <template><think><set name="topic">Komplette Schlafzimmer</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Schlazimmerleuchten</pattern>
+    <template>Okay, und weiter?
+    <reply>Deckenleuchten</reply>
+    <reply>Nachttischleuchten</reply>
+    </template>
+</category>
+<category>
+    <pattern>Deckenleuchten</pattern>
+    <template><think><set name="topic">Deckenleuchten</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Nachttischleuchten</pattern>
+    <template><think><set name="topic">Nachttischleuchten</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Bettwäsche</pattern>
+    <template>Okay, und weiter?
+    <reply>Bettdecken und Kopfkissen</reply>
+    <reply>Bettlaken</reply>
+    <reply>Bettbezüge</reply>
+    </template>
+</category>
+<category>
+    <pattern>Bettdecken und Kopfkissen</pattern>
+    <template><think><set name="topic">Bettdecken und Kopfkissen</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Bettlaken</pattern>
+    <template><think><set name="topic">Bettlaken</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+<category>
+    <pattern>Bettbezüge</pattern>
+    <template><think><set name="topic">Bettbezüge</set></think>Okay, möchtest du noch Filter setzen?
+    <reply>Ja</reply><reply>Nein</reply>
+    </template>
+</category>
+</topic>
+</aiml>

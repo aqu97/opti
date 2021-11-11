@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>
+XNE * XS *
+</pattern>
+<template><think><set var="matched"><srai>XEQ <star index="1" /> XS <star index="2" /></srai></set></think>
+<condition var="matched">
+<li value="TRUE">gleich</li>
+<li>nicht gleich</li>
+</condition>
+</template>
+</category>
+
+
+<category>
+<pattern>
+alt
+</pattern>
+<template><think><set var="matched"><srai>XEQ <get name="price1"/> XS  1  </srai></set></think>
+<condition var="matched">
+<li value="TRUE"><link>
+                    <text>Hier gehts zu deinen Produkten!</text>
+                    <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/wohnlandschaften.html?</url>
+                </link></li>
+<li><link>
+                    <text>Hier gehts zu deinen Podukten!</text>
+                    <url>https://www.opti-wohnwelt.de/wohnen/polstergarnituren/wohnlandschaften.html?pricerange=<get name="price1"/>-<get name="price2"/></url>
+                </link> </li>
+</condition>
+</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+</aiml>
