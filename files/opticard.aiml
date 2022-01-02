@@ -2,22 +2,21 @@
 <aiml version="2.0">
 <category>
     <pattern># OptiCard ^</pattern>
-	    <template>
-	    <card>
-	        <image>https://www.opti-wohnwelt.de/pub/media/home/OptiCard.jpg</image>
-	        <title>OptiCard</title>
-	        <subtitle>Alle nötigen Informationen zu Ihrer OptiCard finden sie hier.</subtitle>
-	        <button>
-	            <text>Zur OptiCard</text>
-	            <url>https://www.opti-wohnwelt.de/opticard.html</url>
-            </button>
-        </card>
-<delay>2</delay>Alternativ oder bei sonstige Fragen erreichen Sie uns unter 0800 2008 222. Wir helfe Ihnen gerne weiter!
-	          <reply>
-            <text>Zurück</text>
-            <postback>hallo</postback>
-        </reply>   
-	          </template> 
+	   <template>
+	    Zu was haben Sie eine Frage?
+	    <reply>
+	        <text>Aktivierung</text>
+	        <postback>Aktivierung</postback>
+        </reply>
+        <reply>
+            <text>Beantragung</text>
+            <postback>Beantragung</postback>
+        </reply>
+        <reply>
+            <text>Verlust melden</text>
+            <postback>Verlust melden</postback>
+        </reply>
+	   </template> 
 </category>
 <category>
     <pattern># Monatsangebote ^</pattern>
@@ -38,4 +37,45 @@
     
     </template>
 </category>
+<category>
+    <pattern>Aktivierung</pattern>
+    <template>Okay, welches Problem haben Sie?
+    <reply>
+        <text>Aktivierung geht nicht</text>
+        <postback>aktivierungfalse</postback>
+    </reply>
+    <reply>
+        <text>Zurück</text>
+        <postback>OptiCard</postback>
+    </reply>
+    </template>
+</category>
+<category>
+    <pattern>Beantragung</pattern>
+    <template>Hier beantragen und von vielen Vorteilen profitieren
+    <button>
+        <text>Zur Beantragung</text>
+        <url>https://www.opti-wohnwelt.de/opticard.html</url>
+    </button>
+    <button>
+        <text>Zurück</text>
+        <postback>OptiCard</postback>
+    </button>
+    </template>
+</category>
+<category>
+    <pattern>Verlust melden</pattern>
+    <template>Kein Problem, einfach das Formular ausfüllen und es wird Ihnen eine neue Karte zugeschickt.
+    <button>
+        <text>Zum Formular</text>
+        <url>https://www.opti-wohnwelt.de/opticard.html</url>
+    </button>
+    <button>
+        <text>Zurück</text>
+        <postback>OptiCard</postback>
+    </button>
+    </template>
+</category>
+
+
 </aiml>
